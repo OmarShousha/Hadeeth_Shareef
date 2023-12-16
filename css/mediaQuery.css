@@ -1,0 +1,92 @@
+
+@media (min-width: 576px) { 
+  .quote-area .quote{
+    width: 410px;
+  }
+ }
+
+
+@media (min-width: 768px) { 
+   h2{
+    font-size: 65px;
+  }
+
+   .parent .quote{
+    font-size: 32px;
+    width: 660px;
+  }
+
+  .parent .quote-area i{
+    font-size: 20px;
+  }
+
+  .parent p{
+    font-size: 28px;
+  }
+
+  .parent .icons i{
+    font-size: 22px;
+  }
+
+  .parent .icons-area .icons div{
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+  }
+
+  .btn{
+    --bs-btn-font-size: 22px;
+    --bs-btn-padding-x: 22px;
+    --bs-btn-padding-y: 8px;
+  }
+
+  }
+
+
+@media (min-width: 992px) { 
+
+   h2{
+    font-size: 45px;
+  }
+
+  .parent p{
+    font-size: 20px;
+  }
+
+  .parent .quote{
+  font-size: 24px;
+  width: 430px;
+  }
+  
+  .parent .quote-area i{
+    font-size: 18px;
+  }
+
+  .parent .icons i{
+    font-size: 14px;
+  }
+
+  .parent .icons-area .icons div{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+  }
+
+  .btn{
+    --bs-btn-font-size: 14px;
+    --bs-btn-padding-x: 1rem;
+    --bs-btn-padding-y: .375rem;
+  }
+
+
+
+
+  }

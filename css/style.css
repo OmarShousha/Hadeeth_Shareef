@@ -1,0 +1,116 @@
+/**===========Start Project =========**/
+/**=========Start General ======**/
+@font-face {
+  font-family: Arabic;
+  src: url(/fonts/aga-rasheeq-v2-bold.ttf);
+}
+
+@font-face {
+  font-family:Arabic-2 ;
+  src: url(/fonts/aga-mashq-v2-bold.ttf);
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.409),rgba(0, 0, 0, 0.409)),url(/img/quotebg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parent{
+  box-shadow: 0 25px 31px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+}
+
+.w-fit{
+  width: fit-content;
+}
+
+.w-400{
+  width: 280px;
+}
+/**===========End General =========**/
+/**=======Start content =======**/
+ h2{
+  font-size: 40px;
+  font-family: 'Reem Kufi', sans-serif;
+  word-spacing: 1px;  
+  text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+}
+
+.parent .quote{
+  font-size: 24px;
+  font-family: 'Amiri', serif;
+}
+
+.parent p{
+  font-size: 22px;
+  font-family: 'Amiri', serif;
+  font-weight: 0;
+  color: green;
+}
+
+.parent .icons-area .icons div{
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #0E0F14;
+  transition: all 0.4s;
+  & i{
+    color: #0E0F14;
+  }
+}
+
+.icons-area .icons div:hover{
+  cursor: pointer;
+  background-color: #0E0F14;
+  & i{
+    color: #fff;
+  }
+}
+
+.icons-area{
+  border-top: solid 1px rgb(210, 210, 210);
+}
+
+
+.btn {
+  --bs-btn-padding-x: 1.125rem;
+  --bs-btn-padding-y: .375rem;
+  --bs-btn-font-size: 15px;
+  --bs-btn-font-weight: 400;
+  --bs-btn-line-height: 1.5;
+  --bs-btn-border-radius: 50px;
+  font-family: 'Readex Pro', sans-serif;
+
+}
+
+
+.btn-skyblue{
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #0E0F14;
+  --bs-btn-border-color: #0E0F14;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #202124;
+  --bs-btn-hover-border-color: #202124;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #333335;
+  --bs-btn-active-border-color: #333335;
+  transition: all 0.4s;
+}
+
+/**=======Start content =======**/
+/**============End Project =======**/
+
+
