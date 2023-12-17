@@ -23,14 +23,15 @@ const quotes =[{
 
 let btn = document.querySelector("#Next");
 let quote = document.querySelector(".quote");
-
+let lastIndex;
 
 btn.addEventListener("click", function(){
-  let random = Math.floor(Math.random() * quotes.length);
-
+  let random;
+  do {
+    random = Math.floor(Math.random() * quotes.length);
+  } while (random === lastIndex);
+  lastIndex = random;
   quote.innerHTML = quotes[random].quote;
-
-  writer.innerHTML = quotes[random].writer;
 })
 
 
