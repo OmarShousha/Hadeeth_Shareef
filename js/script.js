@@ -19,20 +19,17 @@ const quotes =[{
 }
 ]
 
+var quote = document.querySelector(".quote");
+var lastIndex;
 
-
-let btn = document.querySelector("#Next");
-let quote = document.querySelector(".quote");
-let lastIndex;
-
-btn.addEventListener("click", function(){
-  let random;
+ function generateQuote(){
+  var random;
   do {
     random = Math.floor(Math.random() * quotes.length);
   } while (random === lastIndex);
   lastIndex = random;
   quote.innerHTML = quotes[random].quote;
-})
+}
 
 
 
